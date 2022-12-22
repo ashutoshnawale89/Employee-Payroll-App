@@ -45,6 +45,7 @@ public class EmployeePayrollService implements IEmployeePayrollService{
 
     @Override
     public EmployeePayrollData updateEmployeePayrollData(int empId,EmployeePayrollDTO empPayrollDTO) {
+
       EmployeePayrollData empData=new EmployeePayrollData(empId,empPayrollDTO);
       employeeRepositary.save(empData);
         return empData;
