@@ -45,7 +45,7 @@ public class EmployeePayrollController {
 
     @PutMapping("/update/{empId}")
     public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@PathVariable("empId") int empId,
-            @RequestBody EmployeePayrollDTO empPayrollDTO) {
+            @RequestBody EmployeePayrollDTO empPayrollDTO) throws Throwable {
         EmployeePayrollData empData=null;
         empData =employeePayrollService.updateEmployeePayrollData(empId,empPayrollDTO);
         ResponseDTO respDTO=new ResponseDTO("Updated Employee Payroll Data Successfully ",empData);
@@ -54,9 +54,10 @@ public class EmployeePayrollController {
 
     @DeleteMapping("/delete/{empId}")
     public ResponseEntity<ResponseDTO> deleteEmployeePayrollData(
-            @PathVariable("empId") int empId) {
-        employeePayrollService.deleteEmployeePayrollData(empId);
-        ResponseDTO respDTO=new ResponseDTO("Deleted Employee Payroll Data Successfully and Employee ID is  ",empId);
+            @PathVariable("empId") int empId) throws Throwable {
+        String empData=null;
+        empData=employeePayrollService.deleteEmployeePayrollData(empId);
+        ResponseDTO respDTO=new ResponseDTO("Deleted Employee Payroll Data ",empData);
         return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
     }
 }

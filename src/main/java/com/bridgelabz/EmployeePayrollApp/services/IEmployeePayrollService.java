@@ -13,9 +13,9 @@ public interface IEmployeePayrollService {
 
     EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO empPayrollDTO);
 
-    EmployeePayrollData updateEmployeePayrollData(int empId,EmployeePayrollDTO empPayrollDTO);
+    EmployeePayrollData updateEmployeePayrollData(int empId,EmployeePayrollDTO empPayrollDTO) throws Throwable;
 
-    void deleteEmployeePayrollData(int empId);
+    String deleteEmployeePayrollData(int empId) throws Throwable;
 
 
 

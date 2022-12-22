@@ -1,10 +1,8 @@
 package com.bridgelabz.EmployeePayrollApp.models;
 
 import com.bridgelabz.EmployeePayrollApp.dto.EmployeePayrollDTO;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -14,6 +12,7 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class EmployeePayrollData {
 
     @Id
@@ -41,7 +40,6 @@ public class EmployeePayrollData {
         this.note=employeePayrollDTO.note;
         this.profilePic=employeePayrollDTO.profilePic;
         this.department=employeePayrollDTO.department;
-
     }
 
     public EmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {

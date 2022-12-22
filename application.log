@@ -958,3 +958,160 @@ java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 0
 2022-12-22 10:40:13.997  WARN 13692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-12-22 10:40:14.414  INFO 13692 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 7.176 seconds (JVM running for 7.777)
 2022-12-22 10:40:14.416  INFO 13692 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:00:33.384  INFO 1692 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 1692 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:00:33.388 DEBUG 1692 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:00:33.389  INFO 1692 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:00:37.291  WARN 1692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:00:37.541  INFO 1692 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.556 seconds (JVM running for 5.177)
+2022-12-22 12:00:37.543  INFO 1692 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:01:37.946  WARN 1692 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-12-22 12:01:45.124  WARN 1692 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 22] (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.EmployeePayrollDTO["department"])]
+2022-12-22 12:02:18.064  WARN 1692 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 22] (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.EmployeePayrollDTO["department"])]
+2022-12-22 12:02:48.959  WARN 1692 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 22] (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.EmployeePayrollDTO["department"])]
+2022-12-22 12:05:14.824  WARN 1692 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 22] (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.EmployeePayrollDTO["department"])]
+2022-12-22 12:14:44.804  INFO 12188 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 12188 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:14:44.807 DEBUG 12188 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:14:44.808  INFO 12188 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:14:47.359  WARN 12188 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:14:47.619  INFO 12188 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.19 seconds (JVM running for 3.842)
+2022-12-22 12:14:47.622  INFO 12188 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:15:57.102  WARN 12188 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2022-12-22 12:16:02.123 ERROR 12188 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData entity with id 10 exists!] with root cause
+
+org.springframework.dao.EmptyResultDataAccessException: No class com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData entity with id 10 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:173) ~[spring-data-jpa-2.7.6.jar:2.7.6]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:172) ~[spring-data-jpa-2.7.6.jar:2.7.6]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.24.jar:5.3.24]
+	at jdk.proxy2/jdk.proxy2.$Proxy104.deleteById(Unknown Source) ~[na:na]
+	at com.bridgelabz.EmployeePayrollApp.services.EmployeePayrollService.deleteEmployeePayrollData(EmployeePayrollService.java:62) ~[classes/:na]
+	at com.bridgelabz.EmployeePayrollApp.controllers.EmployeePayrollController.deleteEmployeePayrollData(EmployeePayrollController.java:58) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702) ~[tomcat-embed-core-9.0.69.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.69.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-22 12:28:54.013  INFO 2532 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 2532 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:28:54.015 DEBUG 2532 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:28:54.016  INFO 2532 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:28:56.454  WARN 2532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:28:56.732  INFO 2532 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.09 seconds (JVM running for 3.711)
+2022-12-22 12:28:56.734  INFO 2532 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:29:21.840  WARN 2532 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection, could not initialize proxy - no Session; nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection, could not initialize proxy - no Session (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.ResponseDTO["data"]->com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData["department"])]
+2022-12-22 12:32:14.316  INFO 4356 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 4356 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:32:14.319 DEBUG 4356 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:32:14.319  INFO 4356 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:32:16.677  WARN 4356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:32:16.926  INFO 4356 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.965 seconds (JVM running for 3.516)
+2022-12-22 12:32:16.928  INFO 4356 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:32:40.604  WARN 4356 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection, could not initialize proxy - no Session; nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection, could not initialize proxy - no Session (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.ResponseDTO["data"]->com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData["department"])]
+2022-12-22 12:38:46.999  INFO 9980 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 9980 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:38:47.001 DEBUG 9980 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:38:47.002  INFO 9980 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:38:49.302  WARN 9980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:38:49.543  INFO 9980 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.03 seconds (JVM running for 3.744)
+2022-12-22 12:38:49.544  INFO 9980 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:39:59.362  WARN 9980 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection, could not initialize proxy - no Session; nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection, could not initialize proxy - no Session (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.ResponseDTO["data"]->com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData["department"])]
+2022-12-22 12:40:39.051  WARN 9980 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection, could not initialize proxy - no Session; nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection, could not initialize proxy - no Session (through reference chain: com.bridgelabz.EmployeePayrollApp.dto.ResponseDTO["data"]->com.bridgelabz.EmployeePayrollApp.models.EmployeePayrollData["department"])]
+2022-12-22 12:43:11.529  INFO 2780 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 2780 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:43:11.532 DEBUG 2780 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:43:11.532  INFO 2780 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:43:13.844  WARN 2780 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:43:14.087  INFO 2780 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.935 seconds (JVM running for 3.503)
+2022-12-22 12:43:14.089  INFO 2780 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:43:30.394  INFO 13328 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 13328 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:43:30.396 DEBUG 13328 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:43:30.397  INFO 13328 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:43:32.786  WARN 13328 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:43:33.039  INFO 13328 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.016 seconds (JVM running for 3.574)
+2022-12-22 12:43:33.041  INFO 13328 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:45:16.986  INFO 4360 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 4360 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:45:16.990 DEBUG 4360 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:45:16.991  INFO 4360 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:45:19.375  WARN 4360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:45:19.617  INFO 4360 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.012 seconds (JVM running for 3.598)
+2022-12-22 12:45:19.619  INFO 4360 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:45:31.242  INFO 10124 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 10124 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:45:31.245 DEBUG 10124 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:45:31.246  INFO 10124 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:45:33.597  WARN 10124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:45:33.842  INFO 10124 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.969 seconds (JVM running for 3.503)
+2022-12-22 12:45:33.844  INFO 10124 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-12-22 12:45:51.441  INFO 5096 --- [main] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.4.1 on ASHUTOSH-93ITJG43 with PID 5096 (C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App\target\classes started by ASHUTOSH NAWALE in C:\Users\ASHUTOSH NAWALE\IdeaProjects\Spring Boot\PracticeType\Employee-Payroll-App\Employee-Payroll-App)
+2022-12-22 12:45:51.443 DEBUG 5096 --- [main] c.b.E.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2022-12-22 12:45:51.444  INFO 5096 --- [main] c.b.E.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-12-22 12:45:54.059  WARN 5096 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 12:45:54.384  INFO 5096 --- [main] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.336 seconds (JVM running for 3.883)
+2022-12-22 12:45:54.387  INFO 5096 --- [main] c.b.E.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
